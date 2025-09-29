@@ -25,8 +25,8 @@ Incluye **panel administrativo**, **API pública**
 - ✔️ API segura y versionada.  
 - ✔️ Cobertura de pruebas.
 
-![App Screenshot](https://imgur.com/a/dXYPOEG)
-![App Screenshot](https://imgur.com/CWLOnNP)
+![App Screenshot](https://drive.google.com/file/d/1zikMiz0n8VmFERYnh3mxl_kDK8QEvrVR/view?usp=drive_link)
+![App Screenshot](https://drive.google.com/file/d/1VT3JijdkhlDR18nk1xf_W8-kCLdaSF6l/view?usp=drive_link)
   
 
 
