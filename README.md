@@ -25,8 +25,9 @@ Incluye **panel administrativo**, **API pública**
 - ✔️ API segura y versionada.  
 - ✔️ Cobertura de pruebas.
 
-  (https://drive.google.com/file/d/1VT3JijdkhlDR18nk1xf_W8-kCLdaSF6l/view?usp=drive_link)
-  (https://drive.google.com/file/d/1zikMiz0n8VmFERYnh3mxl_kDK8QEvrVR/view?usp=drive_link)
+![App Screenshot](https://imgur.com/a/dXYPOEG)
+![App Screenshot](https://imgur.com/CWLOnNP)
+  
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
