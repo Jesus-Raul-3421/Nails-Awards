@@ -1,4 +1,32 @@
+## Documentation
+
+Nombre: Nails Awards — Registro y Ticketing
+Objetivo: App Laravel que permita registrar asistentes, vender boletos (simulado), validar accesos (QR) y exponer API pública. Evaluación basada en código, pruebas, seguridad, documentación y despliegue.
+
+La aplicación en **Laravel 10** para gestión de eventos, venta simulada de boletos y validación de accesos con **QR**.  
+Incluye **panel administrativo**, **API pública**
+
 ## modelo relacion
+
+ **User – Orders** → 1:N (un usuario puede hacer muchas órdenes).  
+- **User – Events** → 1:N (un admin crea muchos eventos).  
+- **Event – TicketTypes** → 1:N (un evento tiene varios tipos de boletos).  
+- **Order – OrderItems** → 1:N (una orden contiene varios items).  
+- **TicketType – OrderItems** → 1:N (cada ítem corresponde a un tipo de boleto).  
+- **Order – Tickets** → 1:N (una orden genera muchos tickets).  
+- **OrderItem – Tickets** → 1:N (cada ítem puede generar varios tickets).  
+- **Event – Tickets** → 1:N (un evento tiene muchos tickets).  
+- **User (staff) – Checkins** → 1:N (staff valida muchos accesos).  
+- **Ticket – Checkins** → 1:1 (un ticket solo se valida una vez).  
+## ✅ Evaluación
+
+- ✔️ Código limpio y documentado.  
+- ✔️ Funcionalidades completas (**CRUD, checkout, QR, check-in**).  
+- ✔️ API segura y versionada.  
+- ✔️ Cobertura de pruebas.
+
+  (https://drive.google.com/file/d/1VT3JijdkhlDR18nk1xf_W8-kCLdaSF6l/view?usp=drive_link)
+  (https://drive.google.com/file/d/1zikMiz0n8VmFERYnh3mxl_kDK8QEvrVR/view?usp=drive_link)
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
