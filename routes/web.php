@@ -14,5 +14,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('templade');
+});
+
+
+Route::get('/login', function () {
+    return view('auth.login');
+});
+
+Route::get('/401', function () {
+    return view('page.401');
+});
+Route::get('/404', function () {
+    return view('page.404');
+});
+Route::get('/500', function () {
+    return view('page.500');
 });
